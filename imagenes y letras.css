@@ -1,0 +1,100 @@
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 200vh;
+    background: url(./gym1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.inicio2 {
+    margin-bottom: 5cm;
+    font-size: 60px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+#ptext {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: blue;
+    padding: 0 100px;
+}
+
+.heade1 {
+    background-color: rgb(50, 42, 165);
+    display: inline-block;
+    position: relative;
+    left: 10%;
+}
+
+.titulo {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.div1 {
+    background-color: rgb(50, 42, 165);
+    padding: -22px;
+    display: inline-block;
+    position: relative;
+    left: 9cm;
+}
+
+.titulo2 {
+    font-size: 40px;
+}
+
+.div2 {
+    background-color: rgb(50, 42, 165);
+    padding: -22px;
+    display: inline-block;
+    position: relative;
+    left: 13.1cm;
+}
+
+.titulo3 {
+    font-size: 40px;
+}
+
+.div3 {
+    background-color: rgb(50, 42, 165);
+    padding: -22px;
+    display: inline-block;
+    position: relative;
+    bottom: -10.4cm;
+    left: -20cm;
+}
+
+.titulo4 {
+    font-size: 40px;
+}
+
+.div5 {
+    background-color: rgb(0, 26, 255);
+    padding: -22px;
+    display: inline-block;
+    position: relative;
+    bottom: -10.5cm;
+    left: -15.1cm;
+}
+
+.titu5 {
+    font-size: 40px;
+}
+
+.div6 {
+    background-color: rgb(50, 42, 165);
+    padding: -22px;
+    display: inline-block;
+    position: relative;
+    bottom: -10cm;
+    left: 29.1cm;
+    bottom: -1cm;
+}
+
+.titu6 {
+    font-size: 40px;
+}

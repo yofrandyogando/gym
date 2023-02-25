@@ -1,0 +1,148 @@
+1-para colocar un color unibersal se utilisa el:
+*{
+    color
+}
+ 
+2-para cmabiar el tamaño de la letra en css se utilisa:
+ 
+primero se colocca la letra a la que quieres cambiar el tamaño ya sea un h1, p, main, footer etc.
+ ejemplo:
+imporatante sele pone font-size: 30px; es de 30 pixeles pero le puedes poner cualquier numero pudeser 1000 tambien
+h1{
+    font-size: 30px;
+}
+
+ademas si quires cambiar e tamaño a dos etiquetas que esten praticamente juntas  as lo siguiente ejemplo:
+y se le pone coma para separar.
+ ol,
+ li{
+     font-size:30px; ojo solo se pondra un solo tamaño
+ }
+
+3- para cambiar el tamano y el color:
+y si igual mente quieres cambiar el color y el tamano se aria lo siguiente:
+
+ol{
+    color: blu;
+    font-size: 15px
+}
+
+4- para cambiar el tipo de letra se ase de la siguiente fomar:
+
+al igual que antes se pone la etiqueta ejmeplo
+
+h1{
+    font-family: y apreseran todos los tipos de letra;
+}
+
+5- para cambiar el tamano de la imgaen se hace lo siguiente:
+
+hay dos fomas 1 se apicapara todas las imagenesdel programaque es.
+
+img{
+    width: 200px;
+}
+
+pero si queremos espesificar una imagen  en bes de poner img, lo aremos con una clase o con un id al igual que con los colores.
+
+6-como agregar un borde a la imgenes se hace lo siguiente:
+
+pixeles del borde:
+border-width
+
+luego color del borde:
+border-color
+
+luego estilo del borde:
+borde-style
+
+
+
+los tres ban dentro del codigoy puede ir de bajo del tamano.
+
+7-prara agrgar borde redondos se hace lo siguiente:
+
+nombre de la imagen ejmelo
+
+img{
+    bordes-radius: 20px,
+}
+
+8- el codig o padding se utilisa para ponrlas letras a lo largo a lo corto oa loancho
+
+para mober los bordes 
+padding:px;
+
+y pra los lados con el padding; es
+
+padding-top: espara la parte de ariba
+padding-right:lado derecho
+padding-left:isquierdo
+padding-bottom:para habajo
+
+y si no quieres escribir tanto solo polo asi
+
+padding: 20px 20px 20px 20px asi solo tines que ponerlo al estilo manesillas del relob sin tener que espesificar cada lado con codigos
+
+9-margin se utilisa pra mober un poco lasimagenes y letras de las esquinas
+
+margin:px;
+ y pudes hcer igual que en el padin en el sentido de las agujas del relo
+
+ margin: 20px 30px 40px 30px;
+
+ 10- para selecionr un enlace se hace lo siguiente
+
+ a[href=" aqui ira el enlace"]{
+
+ }
+
+ y para qu el enlace no este en morado se hace losiguiente
+  text-decoration:none;
+
+10- unidadesasolutas 
+
+cm:centimetros
+mm:milimetros
+Q:cuartos de milimetros
+in:pulgadas
+pc:picas
+pt:puntos
+px:ppixeles
+vw:ancho de la ventana grafica cuando minimisas la pagina se minimisa e tamano de la letra
+vh:alturade la bentana grafica
+ex:altura de la fuente del elemento
+em: sebe afetado por el tamano de la letra
+
+11-para el ancho de los pixeles se utilisa 
+
+width:y los cambios los notaras con el bagran color 
+esta etique la encuentras en archibo esto es css
+
+12-height:se utilisa para el ancho de ls bordes
+
+13-position es para la posicion de la imagen
+
+ y bancon static,relatibe,absolute,sticky:cada uno para una posicion diferente y sepude utilisar con lo codigos de" margin"
+
+ 14- clear: both;
+ La propiedad CSS clear especifica si un elemento puede estar al lado de elementos flotantes que lo preceden o si debe ser movido (cleared) debajo de ellos. La propiedad clear aplica a ambos elementos flotantes y no flotantes.
+
+both;
+ Es un keyword que indica que el elemento es movido hacia abajo para limpiar tanto elementos flotantes de la izquierda como de la derecha.
+
+15-float
+La propiedad CSS float ubica un elemento al lado izquierdo o derecho de su contenedor, permitiendo a los elementos de texto y en línea aparecer a su costado. El elemento es removido del normal flujo de la página, aunque aún sigue siendo parte del flujo
+
+16- justify-content: space-between;
+esto sirve para separar los titulos del menu denabegacio  cual quierletra
+
+17-position: fixed;
+esto es para que se quede fijo auque bajemo o subamos
+
+ z-index: 100;
+ este sibepra ponerlo porencima de los demas elementos aunque subamos o bajemso 
+
+ 18-na a:hover{
+     este codigo se utilisa para darle un color a las letras del menu nabegacion 
+     con la etiqueta que legistes

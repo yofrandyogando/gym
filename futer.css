@@ -1,0 +1,82 @@
+footer {
+    background-color: black;
+    flex-direction: column;
+}
+
+.no {
+    color: rgb(20, 20, 20);
+    position: relative;
+    left: 6cm;
+    border: 3px solid rgb(251, 255, 0);
+    text-decoration: none;
+    background-color: rgb(251, 255, 0);
+    width: 175px;
+    bottom: -9px;
+}
+
+.nul {
+    position: relative;
+    color: rgb(0, 4, 255);
+    left: 4cm;
+    bottom: -20px;
+    font-size: 14px;
+}
+
+.re {
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 2.4cm;
+    left: 19cm;
+    border: 3px solid rgb(251, 255, 0);
+    text-decoration: none;
+    background-color: rgb(251, 255, 0);
+    width: 100px;
+    bottom: 100px;
+}
+
+.reali {
+    position: relative;
+    left: 18cm;
+    bottom: 2cm;
+}
+
+.f {
+    position: relative;
+    right: 30px;
+}
+
+.t {
+    position: relative;
+    left: 40px;
+}
+
+.i {
+    position: relative;
+    left: 90px;
+}
+
+.ubil {
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 4.5cm;
+    left: 31cm;
+    border: 3px solid rgb(251, 255, 0);
+    text-decoration: none;
+    background-color: rgb(251, 255, 0);
+    width: 159px;
+    bottom: px;
+}
+
+.l {
+    position: relative;
+    color: blue;
+    left: 30cm;
+    bottom: 1cm;
+    font-size: 15px;
+}
+
+.yo {
+    position: relative;
+    left: 28.9cm;
+    bottom: 2cm;
+}
